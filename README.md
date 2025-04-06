@@ -13,8 +13,8 @@ Users should be able to:
 ![](./assets/images/FireShot Capture 002 - Frontend Mentor - Blog preview card - [127.0.0.1].png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-blog-preview-card-jQLWkS86NJ]
+- Live Site URL: [https://anjularyal.github.io/Blog-Preview-Card/]
 
 ## My process
 
