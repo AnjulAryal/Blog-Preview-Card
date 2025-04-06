@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F4D04E;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    row-gap: 50px;
+}
+
+main{
+    background-color: white;
+    max-width: 384px;
+    min-height: 522px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px;
+    gap: 24px;
+    border: solid 1px;
+    box-shadow: 10px 10px  black;
+}
+main:hover h1{
+    color: #F4D04E;
+    
+}
+main:hover{
+    box-shadow: 15px 15px black;
+
+    
+}
+
+.textarea #Button{
+    background-color: #F4D04E;
+    max-width: 82px;
+    min-height: 29px;
+    font-weight:bold;
+    font-family: 'Figtree';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.textarea .maintext{
+font-family: Figtree;
+max-width: fit-content;
+font-size: 1.1rem;
+color:hsl(0, 0%, 50%);
+
+}
+.textarea h1{
+    font-size: 1.5rem;
+}
+.profile p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.profile img{
+    max-width: 32px;
+    height: 32px;
+    padding: 5px;
+}
+.profile{
+    display: flex;
+    
+}
+.attribution a {
+    color: red;
+    text-decoration: none;
+}
