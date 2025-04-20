@@ -1,76 +1,58 @@
-@font-face {
-    font-family: 'Figtree';
-    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
-}
 body{
-    margin: 0px;
-    padding: 0px;
     background-color: #F4D04E;
-    display:flex;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    row-gap: 25px;
     align-items: center;
-    height: 100vh;
-    row-gap: 50px;
-}
+    justify-content: center;
 
+}
 main{
     background-color: white;
-    max-width: 384px;
-    min-height: 522px;
+    max-width: 350px;
+    padding: 24px;
+    align-items: start;
     border-radius: 10px;
+}
+main img{
+    width: 100%;
+}
+.textarea{
+    font-family: figtree;
     display: flex;
     flex-direction: column;
-    padding: 24px 24px;
-    gap: 24px;
-    border: solid 1px;
-    box-shadow: 10px 10px  black;
-}
-main:hover h1{
-    color: #F4D04E;
-    
-}
-main:hover{
-    box-shadow: 15px 15px black;
+    gap: 2px;
 
-    
 }
-
-.textarea #Button{
+#Button{
     background-color: #F4D04E;
     max-width: 82px;
-    min-height: 29px;
-    font-weight:bold;
-    font-family: 'Figtree';
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 4px;
+    padding: 4px 12px;
+    font-weight: bolder;   
 }
-.textarea .maintext{
-font-family: Figtree;
-max-width: fit-content;
-font-size: 1.1rem;
-color:hsl(0, 0%, 50%);
-
+h1{
+    font-size: 24px;
+    line-height: 150%;
 }
-.textarea h1{
-    font-size: 1.5rem;
-}
-.profile p{
-    font-weight: bold;
-    font-size: 1rem;
+.maintext{
+    font-size: 16px;
+    font-weight: 300;
 }
 .profile img{
-    max-width: 32px;
-    height: 32px;
-    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+.text{
+    font-weight: 14px;
 }
 .profile{
     display: flex;
-    
+    align-items: center;
+    column-gap: 10px;
 }
-.attribution a {
-    color: red;
-    text-decoration: none;
+span{
+    font-weight: bold;
 }
+
