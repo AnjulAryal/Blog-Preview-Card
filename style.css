@@ -18,6 +18,7 @@ main{
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    border: solid 0.5px black;
 }
 main:hover{
     box-shadow: 15px 15px 3px;
